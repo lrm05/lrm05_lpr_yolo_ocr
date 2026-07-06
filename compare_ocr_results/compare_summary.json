@@ -1,0 +1,14 @@
+{
+  "total_images": 3000,
+  "detected_images": 3000,
+  "detection_rate": 1.0,
+  "labeled_images": 3000,
+  "v1_exact_match_count": 2976,
+  "v2_exact_match_count": 2980,
+  "v1_exact_match_rate": 0.992,
+  "v2_exact_match_rate": 0.9933,
+  "v1_average_char_accuracy": 0.9987,
+  "v2_average_char_accuracy": 0.9988,
+  "summary_csv": "E:\\11xuexi\\sx1\\2gd\\9\\Sampling_of_CCPD_files\\compare_ocr_results\\compare_results.csv",
+  "output_dir": "E:\\11xuexi\\sx1\\2gd\\9\\Sampling_of_CCPD_files\\compare_ocr_results"
+}
