@@ -1,0 +1,7 @@
+path: E:\11xuexi\sx1\2gd\9\Sampling_of_CCPD_files
+train: data/images/train
+val: data/images/val
+test: data/images/test
+
+names:
+  0: plate
