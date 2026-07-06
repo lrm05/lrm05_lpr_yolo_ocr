@@ -1,0 +1,47 @@
+{
+  "total_images": 3000,
+  "detected_images": 3000,
+  "detection_rate": 1.0,
+  "exact_match_count": 2980,
+  "exact_match_rate": 0.9933,
+  "average_char_accuracy": 0.9988,
+  "mean_bbox_iou": 0.8772,
+  "median_bbox_iou": 0.888,
+  "mean_bbox_relative_error": 0.0344,
+  "bbox_error_le_10pct_count": 2979,
+  "bbox_error_le_10pct_rate": 0.993,
+  "average_detect_time_ms": 27.41,
+  "average_ocr_time_ms": 11.18,
+  "average_total_time_ms": 39.09,
+  "p95_total_time_ms": 49.95,
+  "response_within_1s_count": 3000,
+  "response_within_1s_rate": 1.0,
+  "scene_proxy_metrics": {
+    "day_proxy": {
+      "images": 1572,
+      "exact_match_rate": 0.9943,
+      "average_char_accuracy": 0.9991
+    },
+    "night_proxy": {
+      "images": 1428,
+      "exact_match_rate": 0.9923,
+      "average_char_accuracy": 0.9984
+    }
+  },
+  "acceptance_status": {
+    "localization_metric_ready": true,
+    "recognition_metric_ready": true,
+    "response_time_metric_ready": true,
+    "strict_day_night_acceptance_ready": false,
+    "strict_special_plate_acceptance_ready": false,
+    "strict_lprnet_same_split_comparison_ready": false
+  },
+  "notes": [
+    "车牌定位误差使用 CCPD 真值框与预测框的相对边界误差统计。",
+    "day_proxy / night_proxy 仅基于 CCPD 文件名中的 brightness 字段做近似分组，不等于正式白天/夜间标注验收。",
+    "如需严格验收白天 >=95% / 夜间 >=90%，仍需补充明确的白天/夜间标注测试集。",
+    "如需严格验收特种车牌、军牌、武警牌、临时牌，仍需补充对应专项测试数据。"
+  ],
+  "details_csv": "E:\\11xuexi\\sx1\\2gd\\9\\Sampling_of_CCPD_files\\acceptance_results\\acceptance_details.csv",
+  "output_dir": "E:\\11xuexi\\sx1\\2gd\\9\\Sampling_of_CCPD_files\\acceptance_results"
+}
