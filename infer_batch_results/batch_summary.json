@@ -1,0 +1,10 @@
+{
+  "total_images": 50,
+  "detected_images": 50,
+  "detection_rate": 1.0,
+  "exact_match_count": 49,
+  "exact_match_rate": 0.98,
+  "average_char_accuracy": 0.9971,
+  "summary_csv": "E:\\11xuexi\\sx1\\2gd\\9\\Sampling_of_CCPD_files\\infer_batch_results\\batch_results.csv",
+  "output_dir": "E:\\11xuexi\\sx1\\2gd\\9\\Sampling_of_CCPD_files\\infer_batch_results"
+}
