@@ -1,0 +1,109 @@
+{
+  "dataset_dir": "E:\\11xuexi\\sx1\\2gd\\9\\Sampling_of_CCPD_files\\Sampling_of_CCPD_files",
+  "total_images": 30000,
+  "valid_samples": 30000,
+  "invalid_samples": 0,
+  "valid_ratio": 1.0,
+  "plate_length_distribution": {
+    "7": 30000
+  },
+  "top_10_provinces": [
+    [
+      "皖",
+      28859
+    ],
+    [
+      "苏",
+      481
+    ],
+    [
+      "浙",
+      176
+    ],
+    [
+      "沪",
+      83
+    ],
+    [
+      "豫",
+      53
+    ],
+    [
+      "京",
+      52
+    ],
+    [
+      "粤",
+      49
+    ],
+    [
+      "鄂",
+      40
+    ],
+    [
+      "鲁",
+      35
+    ],
+    [
+      "闽",
+      29
+    ]
+  ],
+  "top_10_characters": [
+    [
+      "A",
+      29577
+    ],
+    [
+      "8",
+      11988
+    ],
+    [
+      "6",
+      11810
+    ],
+    [
+      "9",
+      11724
+    ],
+    [
+      "0",
+      11536
+    ],
+    [
+      "1",
+      11110
+    ],
+    [
+      "2",
+      10649
+    ],
+    [
+      "5",
+      10374
+    ],
+    [
+      "7",
+      10225
+    ],
+    [
+      "3",
+      9532
+    ]
+  ],
+  "brightness": {
+    "min": 13,
+    "max": 224,
+    "mean": 112.99,
+    "bucket_distribution": {
+      "day_like": 10051,
+      "twilight_like": 13864,
+      "night_like": 6085
+    }
+  },
+  "blur": {
+    "min": 2,
+    "max": 1326,
+    "mean": 49.47
+  }
+}
